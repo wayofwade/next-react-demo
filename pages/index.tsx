@@ -28,6 +28,21 @@ const Home: NextPage = () => {
           <a className={styles.card} onClick={() => {Router.push('/chart')}}>
             <p>跳转到图标页面</p>
           </a>
+          <a className={styles.card} onClick={() => {Router.push('/demo/useReducer')}}>
+            <p>useReducer页面</p>
+          </a>
+          <a className={styles.card} onClick={() => {Router.push('/demo/useRef')}}>
+            <p>useRef页面</p>
+          </a> 
+          <a className={styles.card} onClick={() => {Router.push('/demo/useMemo')}}>
+            <p>useMemo页面</p>
+          </a>
+          <a className={styles.card} onClick={() => {Router.push('/demo/useEffect')}}>
+            <p>useEffect页面</p>
+          </a>
+          <a className={styles.card} onClick={() => {Router.push('/demo/useContext')}}>
+            <p>useContext页面</p>
+          </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Learn &rarr;</h2>

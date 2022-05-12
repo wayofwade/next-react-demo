@@ -9,6 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
     "@next/swc-darwin-x64": "^11.1.2",
     "antd": "^4.19.3",
     "babel-eslint": "^10.1.0",
