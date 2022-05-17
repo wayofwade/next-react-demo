@@ -43,6 +43,9 @@ const Home: NextPage = () => {
           <a className={styles.card} onClick={() => {Router.push('/demo/useContext')}}>
             <p>useContext页面</p>
           </a>
+          <a className={styles.card} onClick={() => {Router.push('/demo/selfHooks')}}>
+            <p>自定义hooks页面</p>
+          </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Learn &rarr;</h2>
