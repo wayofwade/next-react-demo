@@ -3,6 +3,7 @@ const BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPl
 // const ESLintPlugin = require('eslint-webpack-plugin');
 const ThemeColorReplacer = require('webpack-theme-color-replacer')
 const { generate } = require('@ant-design/colors') //antd颜色梯度算法
+const path = require('path');
 
 
 const nextConfig = {
@@ -52,6 +53,7 @@ const nextConfig = {
           injectCss: true,
         }),
       )
+    config.resolve.alias = {...config.resolve.alias,  '@': path.resolve(__dirname, './container')}
     return config
   },
 }
